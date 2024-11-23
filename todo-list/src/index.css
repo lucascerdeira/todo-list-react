@@ -1,0 +1,64 @@
+body {
+  min-height: 90vh;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2b2d31;
+  margin: 0;
+  margin-inline: auto;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+h1, h2, h3, p {
+  padding: 0;
+  margin: 0;
+}
+
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+
+input, textarea {
+  font-family: inherit;
+  color: #fff;
+  background-color: #2e2e2e;
+  border: 1px solid #333;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px; /* Define uma largura máxima para o layout */
+  margin: 0 auto;
+  padding: 20px;
+}

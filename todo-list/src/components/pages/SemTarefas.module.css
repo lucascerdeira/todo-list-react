@@ -1,0 +1,60 @@
+.tarefas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 8rem;
+}
+
+.tarefasHeader {
+    width: 100%;
+    border-bottom: 1px solid #3c4043;
+    text-align: left;
+}
+
+.tarefasHeader h1 {
+    font-size: 30px; 
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.tarefasSemConteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.primeiroParagrafo {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.segundoParagrafo {
+    font-size: 0.875rem;
+    color: #bdbdbd;
+}
+
+.tarefasBtnAdd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: #bdbdbd;
+    width: 100%;
+    padding: 20px 16px;
+    border: 3px dashed #bdbdbd; 
+    border-radius: 8px;
+    margin-bottom: 3rem; 
+}
+
+.tarefasBtnAdd:hover {
+    color: white;
+    border: 0.125rem solid white;
+    border-style: dashed;
+}
