@@ -1,0 +1,31 @@
+.tarefa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #3c4043;
+  }
+  
+  .tarefaConteudo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  
+  .checked span {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .tarefaAcoes {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
